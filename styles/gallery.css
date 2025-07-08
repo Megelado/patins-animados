@@ -118,7 +118,6 @@
 
 @media (width < 80rem) {
   #gallery {
-    overflow: hidden;
     & header {
       & span {
         font-size: .75rem;
@@ -129,18 +128,16 @@
       }
     }
 
-    & > img {
-      width: 19.5rem;
-      height: 256px !important;
-    }
-
     & .content {
     margin-top: 1.5rem;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+  }
 
+  & figure {
+    height: 256px;
   }
-  }
-  
+
+  }  
 }
