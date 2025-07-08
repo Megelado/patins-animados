@@ -1,12 +1,12 @@
 #banner {
   width: 100%;
-  padding-block: 2.5rem;
+  padding-block: .625rem;
   overflow: hidden;
 
   & .scroller {
     width: 100%;
     overflow: hidden;
-    padding-block: 1rem;
+    padding-block: .625rem;
   }
 
   & .rolling {

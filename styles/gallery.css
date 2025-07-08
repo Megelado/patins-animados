@@ -20,7 +20,7 @@
   & .content {
     margin-top: 2rem;
     display: grid;
-    grid-template-areas: "A B B" "C D D";
+    grid-template-areas: "A B B" "C C D";
     gap: 2.5rem;
 
   }
@@ -114,4 +114,33 @@
     opacity: 0;
     transform: translateY(100%);
   }
+}
+
+@media (width < 80rem) {
+  #gallery {
+    overflow: hidden;
+    & header {
+      & span {
+        font-size: .75rem;
+      }
+
+      & h2 {
+        font-size: 1.5rem;
+      }
+    }
+
+    & > img {
+      width: 19.5rem;
+      height: 256px !important;
+    }
+
+    & .content {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+  }
+  }
+  
 }
