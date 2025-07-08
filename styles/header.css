@@ -25,12 +25,12 @@ header.top {
     transform: rotate(-25deg);
   }
 
-  a {
+  & a {
     position: relative;
 
   }
 
-  a span {
+  & a span {
     font: 500 .75rem/1.3 'Inter', sans-serif;
     position: absolute;
     top: -0.5rem;
